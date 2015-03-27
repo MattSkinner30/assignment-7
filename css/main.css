@@ -7,5 +7,21 @@
  }
 
 .masthead {
-	background-image: url("../images/beetle-logo.svg");
+	background-image: url("../images/beetle-logo.svg", ("../images/beetle-logo-2.svg");
+	padding-top: 3em;
+	background-size: 50px auto;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+h1 {
+	text-align: center;
+	position: relative;
+	bottom: 35px;
+	font-size: 3rem;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
 }
