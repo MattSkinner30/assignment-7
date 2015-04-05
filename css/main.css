@@ -1,3 +1,11 @@
+/*
+Light green for gradient #6fbf44
+Dark green for gradient #39833e
+Darker green for gradient #2d4d24
+*/
+
+
+
  html {
  	box-sizing: border-box;
  }
@@ -44,16 +52,16 @@ h1 {
 	padding-bottom: 0.5em;
 }
 
-nav {
+.nav-top {
 	width: 100%;
 }
 
-nav ul {
+.ul-top {
 	padding: 0;
 	margin: 0;
 }
 
-nav ul li {
+.li-top {
 	list-style-type: none;
 	display: inline-block;
 	background-color: #512200;
@@ -62,7 +70,7 @@ nav ul li {
 	padding: 0.5em 0;
 }
 
-nav ul li a {
+.a-top {
 	color: white;
 	text-decoration: none;
 	width: 100%;
@@ -76,6 +84,7 @@ nav ul li a {
 .banner {
 	position: relative;
 }
+
 .rocks {
 	width: 100%;
 }
@@ -91,7 +100,65 @@ nav ul li a {
 	bottom: 0%;
 	background-image: linear-gradient(to top, black, transparent);
 }
+
 .ant-nest {
 	width: 50%;
 	float: left;
 }
+
+.stag {
+	width: 50%;
+	float: right;
+}
+
+.dung {
+	width: 50%;
+	float: left;
+}
+
+.tortoise {
+	width: 50%;
+	float: right;
+}
+
+
+.a-ant-nest{
+	float: left;
+	clear: left;
+	position: absolute;
+	left: 25%;
+}
+
+.a-stag{
+	float: right;
+	clear: right;
+}
+
+
+.a-dung{
+	float: left;
+	clear: left;
+}
+
+
+.a-tortoise{
+	float: right;
+	clear: right;
+}
+
+
+
+
+.a-ant-nest, .a-stag, .a-dung, .a-tortoise {
+	color: white;
+	background-image: linear-gradient(to top, #39833e, #6fbf44);
+	padding: 0.5em 1em;
+	border-radius: 0.9em;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5rem;
+	width: 150px;
+}
+
+
+
