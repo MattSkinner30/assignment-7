@@ -8,6 +8,7 @@ Darker green for gradient #2d4d24
 
  html {
  	box-sizing: border-box;
+ 	font-family: 'Dosis', sans-serif;
  }
 
  *, *::before, *::after {
@@ -101,63 +102,114 @@ h1 {
 	background-image: linear-gradient(to top, black, transparent);
 }
 
-.ant-nest {
+
+
+
+
+
+
+main {
+	overflow: hidden;
+}
+
+main div {
+	overflow: hidden;
+	position: relative;
 	width: 50%;
+
+}
+
+.ant-nest-div {
+	float: left;
+}
+
+.stag-div {
+	float: right;
+}
+
+.dung-div {
+	float: left;
+}
+
+.tortoise-div {
+	float: right;
+}
+
+
+
+
+
+
+/* These are the images*/
+.ant-nest {
+	width: 100%;
 	float: left;
 }
 
 .stag {
-	width: 50%;
+	width: 100%;
 	float: right;
 }
 
 .dung {
-	width: 50%;
+	width: 100%;
 	float: left;
 }
 
 .tortoise {
-	width: 50%;
+	width: 100%;
 	float: right;
 }
 
 
+
+
+
+/*This is the positioning of the buttons*/
 .a-ant-nest{
 	float: left;
 	clear: left;
 	position: absolute;
+	bottom: 5%;
 	left: 25%;
 }
 
 .a-stag{
 	float: right;
 	clear: right;
+	position: absolute;
+	bottom: 5%;
+	right: 25%;
 }
-
 
 .a-dung{
 	float: left;
 	clear: left;
+	position: absolute;
+	bottom: 5%;
+	left: 25%;
 }
-
 
 .a-tortoise{
 	float: right;
 	clear: right;
+	position: absolute;
+	bottom: 5%;
+	right: 25%;
 }
 
 
 
-
+/*This is the styling of the buttons*/
 .a-ant-nest, .a-stag, .a-dung, .a-tortoise {
 	color: white;
 	background-image: linear-gradient(to top, #39833e, #6fbf44);
-	padding: 0.5em 1em;
 	border-radius: 0.9em;
 	text-align: center;
 	text-decoration: none;
 	font-size: 1.5rem;
-	width: 150px;
+	width: 50%;
+	padding: 0.3em 0;
 }
 
 
