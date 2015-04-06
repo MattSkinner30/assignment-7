@@ -209,8 +209,12 @@ main div {
 	font-size: 1.1rem;
 	width: 60%;
 	padding: 0.25em 0;
+	box-shadow:0 2px 5px rgba(0, 0, 0, 1);
 }
 
+.a-ant-nest:hover, .a-stag:hover, .a-dung:hover, .a-tortoise:hover {
+	background-image: linear-gradient(to top, #2d4d24, #39833e);
+}
 
 
 
