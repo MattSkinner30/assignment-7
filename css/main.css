@@ -31,6 +31,7 @@ body 	{
 	position: relative;
 	font-size: 1rem;
 	padding-top: 10px;
+	margin: 0;
 }
 
 .left-logo {
@@ -88,6 +89,8 @@ h1 {
 
 .banner {
 	position: relative;
+	margin-bottom: 0;
+
 }
 
 .rocks {
@@ -103,7 +106,7 @@ h1 {
 	padding: 1em 4em;
 	position: absolute;
 	bottom: 0%;
-	background-image: linear-gradient(to top, black, transparent);
+	background-image: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
 }
 
 
@@ -209,7 +212,7 @@ main div {
 	font-size: 1.1rem;
 	width: 60%;
 	padding: 0.25em 0;
-	box-shadow:0 2px 5px rgba(0, 0, 0, 1);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
 }
 
 .a-ant-nest:hover, .a-stag:hover, .a-dung:hover, .a-tortoise:hover {
@@ -220,15 +223,22 @@ main div {
 
 
 
-
 footer {
-	background-color: #a8907f;
-	padding: 0.5em 0;
-
+	background-color: rgba(81, 34, 0, 0.5);
+	padding: 2em 0;
+	background-image: url("../images/beetle-logo.svg");
+	background-repeat: no-repeat;
+	position:	relative;
+	background-size: 50px;
+	background-position: center;
 }
 
+
+
+/*
 footer img {
 	width: 30px;
 	margin: 0 auto;
 	display: block;
 }
+*/
