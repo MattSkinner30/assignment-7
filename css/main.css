@@ -26,7 +26,6 @@ body 	{
 	overflow: hidden;
 }
 
-
 .header {
 	position: relative;
 	font-size: 1rem;
@@ -77,6 +76,7 @@ h1 {
 .li-top:hover {
 	opacity: 0.75;
 }
+
 .a-top {
 	color: white;
 	text-decoration: none;
@@ -86,11 +86,9 @@ h1 {
 	text-align: center;
 }
 
-
 .banner {
 	position: relative;
 	margin-bottom: 0;
-
 }
 
 .rocks {
@@ -109,7 +107,6 @@ h1 {
 	background-image: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
 }
 
-
 main {
 	overflow: hidden;
 }
@@ -118,7 +115,6 @@ main div {
 	overflow: hidden;
 	position: relative;
 	width: 50%;
-
 }
 
 .ant-nest-div {
@@ -136,11 +132,6 @@ main div {
 .tortoise-div {
 	float: right;
 }
-
-
-
-
-
 
 /* These are the images*/
 .ant-nest {
@@ -162,10 +153,6 @@ main div {
 	width: 100%;
 	float: right;
 }
-
-
-
-
 
 /*This is the positioning of the buttons*/
 .a-ant-nest{
@@ -200,8 +187,6 @@ main div {
 	right: 20%;
 }
 
-
-
 /*This is the styling of the buttons*/
 .a-ant-nest, .a-stag, .a-dung, .a-tortoise {
 	color: white;
@@ -218,10 +203,6 @@ main div {
 .a-ant-nest:hover, .a-stag:hover, .a-dung:hover, .a-tortoise:hover {
 	background-image: linear-gradient(to top, #2d4d24, #39833e);
 }
-
-
-
-
 
 footer {
 	background-color: rgba(81, 34, 0, 0.5);
