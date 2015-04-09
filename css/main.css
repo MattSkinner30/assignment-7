@@ -20,9 +20,10 @@ body 	{
 }
 
 .masthead {
-	background-image: url("../images/masthead-bg.png");
-	background-size: 75px auto;
-	background-repeat: repeat;
+	background-image: url("../images/beetle-logo.svg"), url("../images/beetle-logo.svg"), url("../images/masthead-bg.png");
+	background-size: 45px auto, 45px auto, 75px auto;
+	background-repeat: no-repeat, no-repeat, repeat;
+	background-position: 5% 20%, 95% 20%, center center;
 	overflow: hidden;
 }
 
